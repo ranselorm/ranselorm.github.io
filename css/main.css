@@ -1,8 +1,4 @@
-/* MY STYLING */
-
-
-
-html {
+MY STYLING html {
     box-shadow: 0 0 0 20px #000 inset;
     padding: 0 20px;
 }
@@ -62,6 +58,12 @@ h4 {
 .hero-home {
     background-image: url("/images/shark.jpg");
     background-position: center top;
+}
+
+.half-hero {
+    background-position: center center;
+    background-size: cover;
+    height: 40vh;
 }
 
 .hero-content {
@@ -433,12 +435,6 @@ h4 {
 }
 
 
-/* BLOG STYLES */
-
-
-
-
-
 
 h4 {
     color: #999;
@@ -548,7 +544,7 @@ h4 {
 
 
 
-/* POST STYLING */
+
 
 .post {
     width: 100%;
@@ -569,4 +565,48 @@ h4 {
 .pull-right {
     float: right;
     margin: 2em -2% 2em 2em;
+}
+
+.post-aside {
+    float: right;
+    border: 1px dashed rgba(0, 0, 0, 0.2);
+    margin: 0 0 2em 2em;
+    padding: 2em;
+}
+
+.post .post-header {
+    margin-bottom: 2.5em;
+    text-align: center;
+}
+
+.post-content {
+    font-size: 1.1rem
+}
+
+.post-content {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.post-footer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.home-section h2 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.home-section h4 {
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+.home-section .post-header {
+    text-align: center;
+}
+
+.home-section .blog-posts {
+    margin: auto;
+    width: 75%;
 }

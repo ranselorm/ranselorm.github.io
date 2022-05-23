@@ -5,7 +5,7 @@ postHero: /images/shark.jpg
 author: RanSel
 authorTwitter: https://twitter.com/mhartl
 gravatar: /images/pass.jpg
-postFooter: Additional information, and maybe a <a href="#">link or two</a>
+postFooter: <a href="blog">Home<a/>
 ---
 
 Call me *Ishmael*. Some years ago–*never mind how long
@@ -15,7 +15,7 @@ and see the watery part of the world. It is a way I have of driving off
 the spleen and regulating the circulation.
 
 <img class="pull-left" src="/images/silk5.png"
-     alt="chicken">
+     alt="chicken" width="400px">
 
 Whenever I find myself growing grim about the mouth; whenever it is a damp,
 drizzly November in my soul; whenever I find myself involuntarily pausing
